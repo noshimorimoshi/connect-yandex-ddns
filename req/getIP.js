@@ -24,7 +24,7 @@ export default (cookies, callbackError) => {
 			try {
 				[ip] = html.substr(45143, 15).match(/\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/);
 			} catch (error) {
-				/* error */
+				callbackError(true, '');
 			}
 			callbackError(null, ip);
 		});
