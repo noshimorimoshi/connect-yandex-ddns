@@ -10,7 +10,7 @@ dynamic domain name service
 - по образцу жпгхи, отредактируй константу **router**, **delay** и **[yandex](yandex.ru/dev/connect/directory/api/concepts/domains/dns-records-via-pdd.html)** файла: ```./constants/CONSTANTS.js```
 - дальше: ```npm install```
 - и так: ```npm start```. 
-###### *Чтобы не маяться с ручным пуском после каждой перезагрузки, рассмотри, установку npm-модуля **pm2**, **forever** и подобных…*
+###### *Чтобы не маяться с ручным пуском после каждой перезагрузки, рассмотри, установку **docker** или установку любого npm-модуля **pm2**, **forever** и подобных…*
 ###### bash команда ```pkill node``` удаляет все текущие node.js приложения
 ## жпГха
 ![CONSTANTS.js](./constants/constants.js.jpg)
